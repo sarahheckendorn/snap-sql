@@ -15,3 +15,5 @@ INSERT INTO comment (commentId, commentDateTime, commentText) VALUES (UNHEX("e41
 INSERT INTO comment (commentId, commentDateTime, commentText) VALUES (UNHEX("0642f7689249489690fd85b452d0061f"), TIMESTAMP ("2018-06-13"), "My third insert!");
 
 DELETE FROM comment WHERE commentId = UNHEX("96c4614113694638b493a9e2f27ce525");
+
+INSERT INTO comment(commentId, commentDateTime, commentText) VALUES (UNHEX("277338f3a4ff4f69bde31d018f9a5e08"), TIMESTAMP ("2017-03-03"), "This is another insert for practice.");
