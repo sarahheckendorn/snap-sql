@@ -5,7 +5,7 @@ DROP TABLE IF EXISTS comment;
 -- comment entity
 CREATE TABLE comment (
 	commentId BINARY(16) NOT NULL,
-	commentDateTime TIMESTAMP,
+	commentDateTime TIMESTAMP(6),
 	commentText VARCHAR(128),
 	PRIMARY KEY (commentId)
 );
